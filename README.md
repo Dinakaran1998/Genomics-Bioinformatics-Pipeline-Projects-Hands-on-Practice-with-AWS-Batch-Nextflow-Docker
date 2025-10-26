@@ -4,7 +4,7 @@
 
 ---
 
-**1️⃣ [WES Structural & CNV Analysis Pipeline (AWS Batch)](https://github.com/Dinakaran1998/WES-Structural-CNV-Analysis-Pipeline-on-AWS-Batch)**
+##**1️⃣ [WES Structural & CNV Analysis Pipeline (AWS Batch)](https://github.com/Dinakaran1998/WES-Structural-CNV-Analysis-Pipeline-on-AWS-Batch)**
 
 GitHub: [https://github.com/Dinakaran1998/WES-Structural-CNV-Analysis-Pipeline-on-AWS-Batch](https://github.com/Dinakaran1998/WES-Structural-CNV-Analysis-Pipeline-on-AWS-Batch)
 
@@ -124,5 +124,6 @@ Supports WES/WGS, RNA-seq, scRNA-seq input VCFs.
 Reports staged to S3 automatically; container includes AWS CLI.
 
 ---
+
 
 
