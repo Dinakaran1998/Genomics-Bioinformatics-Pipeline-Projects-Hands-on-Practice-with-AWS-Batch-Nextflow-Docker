@@ -5,11 +5,17 @@
 ---
 
 **1️⃣ [WES Structural & CNV Analysis Pipeline (AWS Batch)](https://github.com/Dinakaran1998/WES-Structural-CNV-Analysis-Pipeline-on-AWS-Batch)**
+
 GitHub: [https://github.com/Dinakaran1998/WES-Structural-CNV-Analysis-Pipeline-on-AWS-Batch](https://github.com/Dinakaran1998/WES-Structural-CNV-Analysis-Pipeline-on-AWS-Batch)
+
 WES pipeline for alignment, CNV, and structural variant detection.
+
 **Tech:** Nextflow, AWS Batch, Docker, BWA, GATK, Manta, S3, EFS.
+
 Align FASTQ → mark duplicates → CNV calling → SV detection.
+
 Containerized workflows with all dependencies inside images.
+
 Reference genome & BED intervals staged from S3/EFS.
 
 ---
@@ -83,3 +89,4 @@ Supports WES/WGS, RNA-seq, scRNA-seq input VCFs.
 Reports staged to S3 automatically; container includes AWS CLI.
 
 ---
+
