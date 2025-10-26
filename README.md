@@ -20,17 +20,23 @@ Reference genome & BED intervals staged from S3/EFS.
 
 ---
 
-**2️⃣ [Variant ACMG Classifier](https://github.com/Dinakaran1998/variant_oncogenicity_classifier)**
+## **2️⃣ [Variant ACMG Classifier](https://github.com/Dinakaran1998/variant_oncogenicity_classifier)**
+
 GitHub: [https://github.com/Dinakaran1998/variant_oncogenicity_classifier](https://github.com/Dinakaran1998/variant_oncogenicity_classifier)
+
 Classifies genomic variants using ACMG/AMP guidelines.
+
 **Tech:** Python 3.8+, Polars, PyArrow, multi-threading.
+
 Input: Parquet variant file; Output: annotated CSV with classification.
+
 Supports large datasets efficiently (~25× faster than Pandas).
+
 Uses lookup tables for protein domains, hotspots, population frequency.
 
 ---
 
-**3️⃣ [RNA-seq Fusion Detection Pipeline (AWS Batch)](https://github.com/Dinakaran1998/RNA-seq-Fusion-Detection-Pipeline-on-AWS-Batch)**
+## **3️⃣ [RNA-seq Fusion Detection Pipeline (AWS Batch)](https://github.com/Dinakaran1998/RNA-seq-Fusion-Detection-Pipeline-on-AWS-Batch)**
 
 GitHub: [https://github.com/Dinakaran1998/RNA-seq-Fusion-Detection-Pipeline-on-AWS-Batch](https://github.com/Dinakaran1998/RNA-seq-Fusion-Detection-Pipeline-on-AWS-Batch)
 
@@ -46,7 +52,7 @@ Outputs fusion reports and BAM files to S3.
 
 ---
 
-**4️⃣ [RNA-seq Expression Pipeline (Nextflow + STAR + featureCounts)](https://github.com/Dinakaran1998/Nextflow-RNAseq-pipeline)**
+## **4️⃣ [RNA-seq Expression Pipeline (Nextflow + STAR + featureCounts)](https://github.com/Dinakaran1998/Nextflow-RNAseq-pipeline)**
 
 GitHub: [https://github.com/Dinakaran1998/Nextflow-RNAseq-pipeline](https://github.com/Dinakaran1998/Nextflow-RNAseq-pipeline)
 
@@ -78,7 +84,7 @@ Parallelized across samples in AWS Batch compute environment.
 
 ---
 
-**6️⃣ [MSI & TMB Pipeline (AWS Batch)](https://github.com/Dinakaran1998/MSI_TMB)**
+## **6️⃣ [MSI & TMB Pipeline (AWS Batch)](https://github.com/Dinakaran1998/MSI_TMB)**
 
 GitHub: [https://github.com/Dinakaran1998/MSI_TMB](https://github.com/Dinakaran1998/MSI_TMB)
 
@@ -94,7 +100,7 @@ Parallel execution via EC2 compute environment for scalability.
 
 ---
 
-**7️⃣ [FastQC Pipeline (AWS Batch)](https://github.com/Dinakaran1998/fastqc)**
+## **7️⃣ [FastQC Pipeline (AWS Batch)](https://github.com/Dinakaran1998/fastqc)**
 
 GitHub: [https://github.com/Dinakaran1998/fastqc](https://github.com/Dinakaran1998/fastqc)
 
@@ -110,7 +116,7 @@ Scalable execution across EC2 instances.
 
 ---
 
-**8️⃣ [Pharmacogenomics (PGx) Pipeline (AWS Batch)](https://github.com/Dinakaran1998/Nextflow-PGX)**
+## **8️⃣ [Pharmacogenomics (PGx) Pipeline (AWS Batch)](https://github.com/Dinakaran1998/Nextflow-PGX)**
 
 GitHub: [https://github.com/Dinakaran1998/Nextflow-PGX](https://github.com/Dinakaran1998/Nextflow-PGX)
 
@@ -124,6 +130,7 @@ Supports WES/WGS, RNA-seq, scRNA-seq input VCFs.
 Reports staged to S3 automatically; container includes AWS CLI.
 
 ---
+
 
 
 
