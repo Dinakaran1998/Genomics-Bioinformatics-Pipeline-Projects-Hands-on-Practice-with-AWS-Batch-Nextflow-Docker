@@ -131,7 +131,13 @@ Reports staged to S3 automatically; container includes AWS CLI.
 
 ---
 
+# ☁️ AWS Glue, EMR & Hail Projects – Scalable Genomic Data Processing
+
+---
+
 ### 🧩 **1️⃣ AWS Glue – DataFrame Benchmarking**
+
+🔗 **GitHub:** [https://github.com/Dinakaran1998/AWS-Glue-Job-Benchmarking-DataFrame-Libraries-for-Genomic-Data](https://github.com/Dinakaran1998/AWS-Glue-Job-Benchmarking-DataFrame-Libraries-for-Genomic-Data)
 
 **About:**
 Benchmarked six Python DataFrame engines — **Pandas, FireDucks, Dask, Polars, DuckDB, and PySpark** — for large-scale genomic variant aggregation on AWS Glue. The objective was to identify the fastest and most scalable engine for bioinformatics workloads.
@@ -144,6 +150,8 @@ AWS Glue 4.0, Python 3.10, S3, Pandas, Dask, Polars, DuckDB, PySpark, FireDucks
 
 ### 🧩 **2️⃣ AWS Glue – Variant Count by Chromosome**
 
+🔗 **GitHub:** [https://github.com/Dinakaran1998/variant_count_aws_glue](https://github.com/Dinakaran1998/variant_count_aws_glue)
+
 **About:**
 ETL job that aggregates variant counts per chromosome from Parquet files stored in S3. Produces concise variant summaries for genomic reporting and visualization pipelines.
 
@@ -153,6 +161,8 @@ AWS Glue 4.0, Apache Spark, Python, Amazon S3
 ---
 
 ### 🧩 **3️⃣ AWS EMR – Split Variants by Chromosome**
+
+🔗 **GitHub:** [https://github.com/Dinakaran1998/AWS-EMR-Job-Split-Variants-by-Chromosome](https://github.com/Dinakaran1998/AWS-EMR-Job-Split-Variants-by-Chromosome)
 
 **About:**
 Spark-based EMR job that reads large genomic CSV files and splits them into **individual Parquet files per chromosome**, optimizing data retrieval and downstream Spark performance.
@@ -164,6 +174,8 @@ AWS EMR 6.15.0, Apache Spark, Python, Amazon S3
 
 ### 🧩 **4️⃣ AWS Glue – CSV to Parquet Conversion**
 
+🔗 **GitHub:** [https://github.com/Dinakaran1998/csv_to_parquet_genomic_data_aws_glue](https://github.com/Dinakaran1998/csv_to_parquet_genomic_data_aws_glue)
+
 **About:**
 Converts multiple CSV variant datasets into **partitioned Parquet** format by chromosome. Designed for scalable storage, faster queries, and schema inference in genomic ETL pipelines.
 
@@ -173,6 +185,8 @@ AWS Glue 4.0, Apache Spark, Python, Amazon S3
 ---
 
 ### 🧩 **5️⃣ AWS EMR – Variant Count by Chromosome**
+
+🔗 **GitHub:** [https://github.com/Dinakaran1998/AWS-EMR-Job-Count-Variants-by-Chromosome](https://github.com/Dinakaran1998/AWS-EMR-Job-Count-Variants-by-Chromosome)
 
 **About:**
 Distributed Spark job on EMR that counts variants per chromosome from Parquet datasets. Enables high-throughput genomic analytics for medium to large-scale data (1–50 GB).
@@ -184,6 +198,8 @@ AWS EMR, Apache Spark, Python, Amazon S3
 
 ### 🧩 **6️⃣ Hail – VCF to CSV Transformation**
 
+🔗 **GitHub:** [https://github.com/Dinakaran1998/-Hail-Variant-Transformation-Pipeline-VCF-to-CSV](https://github.com/Dinakaran1998/-Hail-Variant-Transformation-Pipeline-VCF-to-CSV)
+
 **About:**
 Performs large-scale genomic variant transformation from **VCF/VCF.BGZ** files to tabular CSV format using **Hail**, a distributed framework built on Apache Spark. Ideal for variant-level downstream analysis.
 
@@ -191,7 +207,5 @@ Performs large-scale genomic variant transformation from **VCF/VCF.BGZ** files t
 Hail, Apache Spark, Python 3.8+, GRCh38 Reference Genome
 
 ---
-
-
 
 
