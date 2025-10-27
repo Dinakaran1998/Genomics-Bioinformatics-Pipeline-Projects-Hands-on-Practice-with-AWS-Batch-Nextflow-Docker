@@ -83,3 +83,64 @@ Supports WES/WGS, RNA-seq, scRNA-seq input VCFs.
 Reports staged to S3 automatically; container includes AWS CLI.
 
 ---
+
+### 🧩 **1️⃣ AWS Glue – DataFrame Benchmarking**
+
+**About:**
+Benchmarked six Python DataFrame engines — **Pandas, FireDucks, Dask, Polars, DuckDB, and PySpark** — for large-scale genomic variant aggregation on AWS Glue. The objective was to identify the fastest and most scalable engine for bioinformatics workloads.
+**Result:** 🥇 **Polars** achieved the best performance, completing the aggregation in **~7 seconds**, significantly outperforming PySpark (43 s) and others.
+
+**Tech Used:**
+AWS Glue 4.0, Python 3.10, S3, Pandas, Dask, Polars, DuckDB, PySpark, FireDucks
+
+---
+
+### 🧩 **2️⃣ AWS Glue – Variant Count by Chromosome**
+
+**About:**
+ETL job that aggregates variant counts per chromosome from Parquet files stored in S3. Produces concise variant summaries for genomic reporting and visualization pipelines.
+
+**Tech Used:**
+AWS Glue 4.0, Apache Spark, Python, Amazon S3
+
+---
+
+### 🧩 **3️⃣ AWS EMR – Split Variants by Chromosome**
+
+**About:**
+Spark-based EMR job that reads large genomic CSV files and splits them into **individual Parquet files per chromosome**, optimizing data retrieval and downstream Spark performance.
+
+**Tech Used:**
+AWS EMR 6.15.0, Apache Spark, Python, Amazon S3
+
+---
+
+### 🧩 **4️⃣ AWS Glue – CSV to Parquet Conversion**
+
+**About:**
+Converts multiple CSV variant datasets into **partitioned Parquet** format by chromosome. Designed for scalable storage, faster queries, and schema inference in genomic ETL pipelines.
+
+**Tech Used:**
+AWS Glue 4.0, Apache Spark, Python, Amazon S3
+
+---
+
+### 🧩 **5️⃣ AWS EMR – Variant Count by Chromosome**
+
+**About:**
+Distributed Spark job on EMR that counts variants per chromosome from Parquet datasets. Enables high-throughput genomic analytics for medium to large-scale data (1–50 GB).
+
+**Tech Used:**
+AWS EMR, Apache Spark, Python, Amazon S3
+
+---
+
+### 🧩 **6️⃣ Hail – VCF to CSV Transformation**
+
+**About:**
+Performs large-scale genomic variant transformation from **VCF/VCF.BGZ** files to tabular CSV format using **Hail**, a distributed framework built on Apache Spark. Ideal for variant-level downstream analysis.
+
+**Tech Used:**
+Hail, Apache Spark, Python 3.8+, GRCh38 Reference Genome
+
+---
