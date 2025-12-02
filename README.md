@@ -19,6 +19,19 @@ Containerized workflows with all dependencies inside images.
 Reference genome & BED intervals staged from S3/EFS.
 
 ---
+## **2️⃣ [Variant ACMG Classifier](https://github.com/Dinakaran1998/variant_oncogenicity_classifier)**
+
+GitHub: [https://github.com/Dinakaran1998/variant_oncogenicity_classifier](https://github.com/Dinakaran1998/variant_oncogenicity_classifier)
+
+Classifies genomic variants using ACMG/AMP guidelines.
+
+**Tech:** Python 3.8+, Polars, PyArrow, multi-threading.
+
+Input: Parquet variant file; Output: annotated CSV with classification.
+
+Supports large datasets efficiently (~25× faster than Pandas).
+
+Uses lookup tables for protein domains, hotspots, population frequency.
 
 
 
@@ -195,6 +208,7 @@ Performs large-scale genomic variant transformation from **VCF/VCF.BGZ** files t
 Hail, Apache Spark, Python 3.8+, GRCh38 Reference Genome
 
 ---
+
 
 
 
